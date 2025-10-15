@@ -1,0 +1,121 @@
+{
+  "event": {
+    "name": "NSN Karate League - Season 1 (2025)",
+    "location": "Gachibowli Indoor Stadium, Hyderabad",
+    "dates": {
+      "event_dates": "November 15th & 16th, 2025",
+      "registration_deadline": "October 26, 2025",
+      "early_bird_until": "October 15, 2025"
+    }
+  },
+  "greetings": {
+    "chief_guest": {
+      "name": "Sri Mahesh Kumar Goud",
+      "designation": "TIPCC Leader & MLC, President TSKDA, Vice President KIO",
+      "message": "Encouragement to athletes, referees, and coaches to compete with honor and elevate karate."
+    },
+    "brand_ambassador": {
+      "name": "Siddu Reddy Kandakatla",
+      "designation": "Entrepreneur, Philanthropist, President Rockwell International School",
+      "message": "Invitation to join a movement building future leaders through karate."
+    },
+    "organizers": {
+      "names": ["Sensei Naresh M", "Sensei Sripal Reddy", "Sensei Nani P"],
+      "message": "Welcome to the inaugural NSN League – platform where next stars of the nation emerge."
+    }
+  },
+  "vision": {
+    "mission": "Build a professional league platform for Indian karate.",
+    "pillars": ["NEXT - Future champions", "STAR - Skill and character", "NATION - United excellence"],
+    "differentiator": "Professional league with media, recognition & seasonal competition."
+  },
+  "about_league": {
+    "objective": "Telangana’s first professional karate league.",
+    "call_to_action": "Invitation to referees, coaches, dojos, and athletes."
+  },
+  "key_benefits_for_athletes": {
+    "growth": "Skill elevation through high-level competition.",
+    "standards": "International protocols (WKF/AKF/KIO).",
+    "opportunities": "Pathways to national & international representation.",
+    "competition": "Nation’s top talent participation.",
+    "awards": "₹5 Lakhs total prize money."
+  },
+  "rules_and_regulations": {
+    "eligibility": "Open to all karate styles and federations.",
+    "documents_required": ["Age Proof", "Medical Certificate (Senior)"],
+    "standards": {
+      "kata": "WKF Technical Criteria",
+      "kumite": "Flag System",
+      "referees": "Certified WKF, AKF, KIO"
+    },
+    "fees": {
+      "single_event": 2500,
+      "additional_event": 1500
+    },
+    "liability": "Organizers not responsible for injuries; first aid provided."
+  },
+  "equipment_requirements": {
+    "uniform": "White Karate Gi",
+    "protective_gears": [
+      "Gloves",
+      "Shin Pads",
+      "Toe Guards",
+      "Groin Guard",
+      "Chest Guard",
+      "Head Guard (Sub-Junior)",
+      "Gum Shield",
+      "Red (Aka) & Blue (Ao) Belts",
+      "Body Protector"
+    ]
+  },
+  "categories": {
+    "sub_junior_under_14": {
+      "male": ["6Y Kata", "6Y Kumite -20kg", "6Y Kumite +20kg", "..."],
+      "female": ["6Y Kata", "6Y Kumite -20kg", "6Y Kumite +20kg", "..."]
+    },
+    "cadet_14_15": ["Male Kata", "Male Kumite -45kg", "..."],
+    "junior_16_17": ["Male Kata", "Male Kumite -50kg", "..."],
+    "under_21_18_20": ["Male Kata", "Male Kumite -50kg", "..."],
+    "senior_18_plus": ["Male Kata", "Male Kumite -50kg", "..."]
+  },
+  "cash_prizes_and_rewards": {
+    "total_prize_pool": 500000,
+    "individual_gold_pool_prize": 10000,
+    "team_events": {
+      "team_kata_male": "15000 + Trophy",
+      "team_kata_female": "15000 + Trophy",
+      "team_kumite_male": "15000 + Trophy",
+      "team_kumite_female": "15000 + Trophy"
+    }
+  },
+  "schedule": [
+    {
+      "date": "November 14, 2025",
+      "activities": ["4:00 PM - Registration", "5:00 PM - ID Card Distribution", "6:00 PM - Coaches Meeting"]
+    },
+    {
+      "date": "November 15, 2025",
+      "activities": [
+        "7:30 AM - Referee Briefing",
+        "8:00 AM - Athletes Gathering (Sub-Juniors)",
+        "8:30 AM - Competition Begins",
+        "7:00 PM - Day Close"
+      ]
+    },
+    {
+      "date": "November 16, 2025",
+      "activities": [
+        "8:00 AM - Competition Resumes",
+        "5:00 PM - Team Events",
+        "6:00 PM - Finals & Cash Awards",
+        "7:30 PM - Closing Ceremony"
+      ]
+    }
+  ],
+  "venue_facilities": ["AC Hall", "Seating 2000+", "Lighting & Sound", "Medical Stations", "Food Courts", "Parking"],
+  "registration_contact": {
+    "phone": "+91 7702777331",
+    "time": "9:00 AM - 8:00 PM"
+  },
+  "organizing_committee": ["Mr. Mahesh Kumar Goud Bomma - Chairman", "Mr. Keerthan Kondru - Secretary"]
+}
