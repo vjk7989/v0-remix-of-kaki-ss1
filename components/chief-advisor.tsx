@@ -6,17 +6,20 @@ export function ChiefAdvisorSection() {
         <div className="mt-4 grid gap-6 lg:grid-cols-2 items-center">
           <div>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-balance">
-              Shri Indrasena Garu – Chief Advisor, NSN Karate League
+              Mr. Siddu Reddy Kandakatla – Brand Ambassador, NSN Karate League
             </h2>
             <p className="mt-4 text-sm md:text-base leading-relaxed text-gray-300">
-              Shri Indrasena Garu is a film actor, and black belt holder who serves as the Chief Advisor of NSN Karate
-              League. His passion for martial arts and commitment to social welfare inspire and guide the league’s
-              vision of empowering young athletes through discipline and sportsmanship.
+              Mr. Siddu Reddy Kandakatla is the Brand Ambassador of NSN Karate League. He is a philanthropist,
+              entrepreneur, and President of Rockwell International School. A fitness enthusiast and strong supporter of
+              martial arts, he actively promotes discipline and physical well-being among youth. He has also built a
+              government school for underprivileged children, showcasing his dedication to education and social welfare.
+              His inspiring leadership continues to motivate many to strive for excellence and serve the community.
+              <br />
             </p>
           </div>
           <div className="rounded-xl border border-gray-800 p-2">
             <img
-              src="/images/chief-advisor-indrasena.jpg"
+              src="/images/design-mode/photo_6305135926564294043_y(1).jpg"
               alt="Chief Advisor portrait"
               className="w-full h-auto rounded-lg object-cover"
             />

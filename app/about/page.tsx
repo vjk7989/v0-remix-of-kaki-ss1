@@ -2,6 +2,8 @@ import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { Download } from "lucide-react"
 
 export default function AboutPage() {
   return (
@@ -14,7 +16,7 @@ export default function AboutPage() {
         </div>
 
         <h1 className="mt-2 text-3xl md:text-4xl font-semibold text-white text-balance">
-          India’s Biggest Karate Championship 2025
+          India's Biggest Karate Championship 2025
         </h1>
 
         {/* NSN Karate League content */}
@@ -31,7 +33,7 @@ export default function AboutPage() {
             </p>
             <p>
               With participation from 15+ states, 2000+ athletes, and an audience of 4000+, the NSN Karate League stands
-              as one of India’s largest and most dynamic karate events. Our mission is to create opportunities for
+              as one of India's largest and most dynamic karate events. Our mission is to create opportunities for
               athletes to compete at the highest level, promote fitness and discipline among youth, and provide brands
               and sponsors a powerful platform for nationwide recognition.
             </p>
@@ -49,7 +51,7 @@ export default function AboutPage() {
               <strong>Founded and organized by Sensei Naresh, Sensei Sripal, and Sensei Nani</strong>.
             </p>
             <p>
-              At NSN, we believe in <em>Passion. Discipline. Growth.</em> Together, let’s build the future of karate.
+              At NSN, we believe in <em>Passion. Discipline. Growth.</em> Together, let's build the future of karate.
             </p>
           </div>
         </div>
@@ -72,6 +74,21 @@ export default function AboutPage() {
           </div>
         </div>
 
+        <div className="mt-10 bg-gradient-to-r from-red-600/10 to-red-600/5 border border-red-600/20 rounded-lg p-6 md:p-8">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div>
+              <h3 className="text-xl md:text-2xl font-semibold text-white">Event Bulletin</h3>
+              <p className="text-muted-foreground mt-2">
+                Download the official NSN Karate League bulletin with complete event details, schedule, and guidelines.
+              </p>
+            </div>
+            <Button className="bg-red-600 hover:bg-red-700 text-white whitespace-nowrap gap-2">
+              <Download className="w-4 h-4" />
+              Download Bulletin
+            </Button>
+          </div>
+        </div>
+
         {/* Sub-sections: History, Mission, Categories */}
         <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
           <Card className="bg-black/40 border-neutral-800">
@@ -89,7 +106,7 @@ export default function AboutPage() {
               <CardTitle className="text-white">Mission</CardTitle>
             </CardHeader>
             <CardContent className="text-muted-foreground">
-              Promoting martial arts culture, nurturing youth talent, and elevating India’s presence on the global stage
+              Promoting martial arts culture, nurturing youth talent, and elevating India's presence on the global stage
               through fair competition and sportsmanship.
             </CardContent>
           </Card>
@@ -108,6 +125,73 @@ export default function AboutPage() {
               </ul>
             </CardContent>
           </Card>
+        </div>
+
+        <div className="mt-12">
+          <div className="flex items-center gap-2 mb-6">
+            <p className="text-sm uppercase tracking-wider text-red-500">Leadership</p>
+          </div>
+          <h2 className="text-2xl md:text-3xl font-semibold text-white text-balance">Meet Our Organizers</h2>
+
+          <div className="mt-8 bg-black/40 border border-neutral-800 rounded-lg p-6 md:p-8">
+            <h3 className="text-xl md:text-2xl font-semibold text-white mb-4">Organising Team – NSN Karate League</h3>
+            <div className="space-y-4 text-muted-foreground text-pretty">
+              <p>
+                The NSN Karate League was founded with a powerful vision — to identify and nurture potential karate
+                talent across India and build the next stars of the nation. The NSN Karate League Season 1 is organised
+                by Sensei Naresh M, Sensei Sripal Reddy, and Sensei Nani P, the core team behind NSN.
+              </p>
+              <p>
+                With decades of experience in martial arts, they have dedicated their journey to promoting karate across
+                India and nurturing young athletes into champions. The organisers believe that India has immense
+                untapped potential in martial arts. Their goal is to create a platform where deserving athletes can
+                showcase their skills, gain national exposure, and represent the country at international levels.
+              </p>
+              <p>
+                Through this league, NSN aims to make India a strong force in global karate and inspire a new generation
+                of champions.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div className="overflow-hidden rounded-lg border border-neutral-800">
+              <img
+                src="/images/design-mode/photo_6055575374361463576_y.jpg"
+                alt="NSN Karate League organizers - Sensei Naresh, Sensei Sripal, and Sensei Nani"
+                className="h-full w-full object-cover"
+              />
+            </div>
+
+            <div className="space-y-6">
+              <div>
+                <h3 className="text-lg md:text-xl font-semibold text-white">Sensei Naresh M</h3>
+                <p className="text-red-500 text-sm uppercase tracking-wider mt-1">Founder & Organizer</p>
+                <p className="text-muted-foreground mt-3">
+                  A visionary leader in the karate community with decades of experience in martial arts training and
+                  event management. Dedicated to identifying and nurturing karate talent across India.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg md:text-xl font-semibold text-white">Sensei Sripal Reddy</h3>
+                <p className="text-red-500 text-sm uppercase tracking-wider mt-1">Founder & Organizer</p>
+                <p className="text-muted-foreground mt-3">
+                  Committed to promoting karate excellence and fostering a culture of discipline and sportsmanship.
+                  Passionate about creating opportunities for athletes to compete at the highest level.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg md:text-xl font-semibold text-white">Sensei Nani P</h3>
+                <p className="text-red-500 text-sm uppercase tracking-wider mt-1">Founder & Organizer</p>
+                <p className="text-muted-foreground mt-3">
+                  Dedicated to nurturing the next generation of karate champions and building a stronger martial arts
+                  community across India.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <SiteFooter />
